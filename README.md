@@ -1,25 +1,24 @@
-# 📊 K-Means Clustering with Education-Level Visualization
+# 📊 K-Means Clustering Project with Visualization
 
-This project demonstrates **K-Means clustering** on synthetic employee data, grouping employees by **Years of Experience**, **Monthly Salary**, and **Education Level**.  
-It includes centroid visualization, silhouette score evaluation, and a cluster summary table.
+A beginner-friendly Python project that applies **K-Means clustering** to sample data.  
+Includes clean code, documentation, and visualization for easy learning.
 
 ---
 
 ## 🚀 Features
-- Generates synthetic employee dataset (Age, Education, Experience, Salary, Performance).
-- Encodes categorical variables (Education Level).
-- Applies **K-Means clustering** with 3 clusters.
-- Calculates **Silhouette Score** for cluster quality.
-- Visualizes clusters:
-  - Color → Cluster
-  - Marker → Education Level
-  - Centroid → Black "X"
-- Provides a **Cluster vs Education Distribution** summary.
+- Cluster assignment with silhouette score
+- Centroid visualization using matplotlib
+- Education-level markers for deeper insights
+- Ready-to-run `.py` file with requirements.txt
 
 ---
 
-## 🛠️ Requirements
-Install the following Python libraries before running:
+## 🛠️ Installation
+Clone the repository and install dependencies:
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn
+git clone https://github.com/yourusername/KMeans-Clustering-Project.git
+cd KMeans-Clustering-Project
+pip install -r requirements.txt
+python kmeans_clustering.py
+
